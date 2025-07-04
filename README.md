@@ -19,7 +19,7 @@ Zeszytowy styl, kafelkowe dni, estetyczne strzałki i układ inspirowany notatni
 ## 📦 Instalacja lokalna
 ```bash
 git clone https://github.com/ms-matthew/bullet-journal-wannabe.git
-cd zeszytowy-kalendarz
+cd bullet-journal-wannabe
 npm install
 npm run dev
 ```
