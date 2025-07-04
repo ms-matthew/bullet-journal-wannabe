@@ -1,12 +1,25 @@
-# React + Vite
+# Bullet-Journal 📘🗓️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsywny kalendarz zbudowany w React z wykorzystaniem `react-calendar` oraz Tailwinda.  
+Zeszytowy styl, kafelkowe dni, estetyczne strzałki i układ inspirowany notatnikiem.  
 
-Currently, two official plugins are available:
+## 🔧 Technologie
+- React + Vite
+- Tailwind CSS
+- React Calendar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Funkcje
+- Elegancki zeszytowy layout z borderami `dashed`
+- Podkreślone dni tygodnia
+- Strzałki nawigacyjne w stylu `⟵ ⟶`
+- Responsywność na telefonach i desktopie
+- Stylizacja w JSX (bez plików CSS @apply)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalacja lokalna
+```bash
+git clone https://github.com/ms-matthew/bullet-journal-wannabe.git
+cd zeszytowy-kalendarz
+npm install
+npm run dev
+```
